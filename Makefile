@@ -5,5 +5,3 @@ SRC=src/
 
 all: 
 	$(CC) $(CFLAGS) $(SRC)main.c -o $(BUILD)password
-			
-
