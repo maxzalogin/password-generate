@@ -8,4 +8,4 @@ all:
 clang:
 	clang-format -i $(SRC)main.c
 valgrind:
-	valgrind --leak-check=yes build/password 6
+	valgrind --leak-check=yes $(BUILD)/password 6
